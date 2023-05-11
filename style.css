@@ -1,0 +1,164 @@
+
+    .body{
+        margin: 0;
+        padding: 0;
+        font-family: helvetica, verdana, sans-serif;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+    .inline-block{
+    display: inline-block;
+    vertical-align: top;
+    width: 73%;
+    padding: 1%;
+    }
+    .list1{
+        width: 50%;
+        margin-left: auto;
+    }
+    .logo{
+    width: 23%;
+    padding: 1%;
+    height: auto; 
+    text-align: center;  
+    }
+    .body{
+    padding: 7;
+    }
+    html{
+    width: 73%;
+    padding: 1%;
+    }
+    .Picofme{
+      height:600px;
+      width: auto;
+      padding: 25px; 
+    }
+    .heroImg{
+     width: 500px;   
+     margin: 0 auto;
+    }
+    .footer{
+       background-color: #373738; 
+       padding: 3%;
+       text-align: center;
+       
+    }
+    .footerinlineblock{
+      display: inline-block;
+      vertical-align: top; 
+      padding: 3%; 
+    }
+    .resume{
+        margin: 25px;
+    }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        
+      }
+      
+      .image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 10rem;   
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        color: black;
+        <span style="vertical-align: bottom;">Text aligned below center</span>
+        
+      }
+      
+      .one {
+        background-image: url('Images/Bethel_House.jpeg');
+        height: 200px;
+        width: auto;
+      }
+      
+      .two {
+        background-image: url('Images/US_Treasury.jpeg');
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 200px;
+        width: auto;
+
+      }
+      
+      .three {
+        background-image: url('Images/MyCareer.jpeg');
+        margin-left: 100px;
+        margin-top: 100px;
+        height: 200px;
+        width: auto;
+        
+      }
+      
+      .image:hover {
+        transform: scale(1.2);
+        z-index: 1;
+      }
+      .container .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 10px;
+        padding: 6px 12px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .container .btn:hover {
+        background-color: black;
+      }
+      .flexContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: justify;
+      }
+      .centered{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: medium; 
+        font-weight: 900;
+        border: 10px;
+        border-width: 5px;
+        border-color: white;
+      }
+      .centered-down{
+        position: absolute;
+        color: black;
+        text-align: justify center;
+        font-size: small; 
+        font-weight: 500;
+        border: 5px;
+        border-width: 5px;
+        border-color: white;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+      }
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: black;
+          color: #FFFFFF;
+          margin: 0;
+          padding: 0;
+          font-family: helvetica, verdana, sans-serif;
+          flex-direction: column;
+
+        }
+      }
+     
+    
+
+      
